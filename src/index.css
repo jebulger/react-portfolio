@@ -229,6 +229,57 @@ button:focus-visible {
   opacity: 1;
 }
 
+.contact-container {
+  padding: 3rem;
+  background-color: #474747;
+}
+
+#contact-form {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+#contact-form h2,
+#contact-form h1 {
+  color: #333333;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  width: 98%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: #007bff;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+.visible {
+  display: block;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.notification {
+  background-color: #e8175d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

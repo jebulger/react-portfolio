@@ -2,6 +2,7 @@ import Header from "../src/components/Header";
 import About from "../src/components/About";
 import Footer from "../src/components/Footer";
 import Portfolio from "../src/components/Portfolio";
+import Contact from "../src/components/Contact";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   );
