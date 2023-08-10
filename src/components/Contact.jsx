@@ -5,6 +5,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [emailSent, setEmailSent] = useState(false);
   const [notification, setNotification] = useState({
     message: "",
