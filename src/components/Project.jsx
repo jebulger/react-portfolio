@@ -12,6 +12,7 @@ const Project = ({ project }) => {
         <a href={liveLink} target="_blank" rel="noopener noreferrer">
           Deployed Site
         </a>
+        <br></br>
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
           GitHub Repo
         </a>
