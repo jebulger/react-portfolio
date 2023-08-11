@@ -1,18 +1,28 @@
+import { NavLink } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav className="nav">
       <ul className="nav-list">
         <li className="nav-item">
-          <a href="#about"> About Me</a>
+          <NavLink to="/about" className="active-link">
+            About Me
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a href="#portfolio">Portfolio</a>
+          <NavLink to="/portfolio" className="active-link">
+            Portfolio
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a href="#contact">Contact</a>
+          <NavLink to="/contact" className="active-link">
+            Contact
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a href="#resume">Resume</a>
+          <NavLink to="/resume" className="active-link">
+            Resume
+          </NavLink>
         </li>
       </ul>
     </nav>
