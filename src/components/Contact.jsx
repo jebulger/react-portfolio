@@ -45,7 +45,7 @@ const Contact = () => {
         .then(() => {
           setEmailSent(true);
           showNotification(
-            "Your email has been sent, I will be in touch soon!"
+            "Your email has been sent, thanks for reaching out!"
           );
         })
         .catch((err) => {
@@ -56,7 +56,7 @@ const Contact = () => {
       setEmail("");
       setMessage("");
     } else {
-      showNotification("All fields must be filled in.");
+      showNotification("All fields are required and must be filled in.");
     }
   };
 

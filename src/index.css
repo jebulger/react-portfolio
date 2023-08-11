@@ -280,6 +280,55 @@ button:focus-visible {
   margin-top: 10px;
 }
 
+.resume-container {
+  margin: 0 auto;
+  padding: 2rem 10rem 2rem 10rem;
+  background-color: #474747;
+}
+
+.resume-container h1 {
+  margin-bottom: 2rem;
+  color: #f5f5f5;
+}
+
+.resume-container h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #cc527a;
+}
+
+.resume-container ul {
+  list-style: disc;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  color: #ccc;
+}
+
+.resume-container li {
+  margin-bottom: 0.5rem;
+}
+
+.resume-container a {
+  display: inline-block;
+  background-color: #e8175d;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.resume-container a:hover {
+  background-color: #c70039;
+}
+
+
+.front-end-proficiencies, .backend-proficiencies {
+  margin-top: 2rem;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
