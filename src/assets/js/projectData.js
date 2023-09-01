@@ -1,5 +1,11 @@
 const projectData = [
   {
+    title: "Squad Sync",
+    liveLink: "https://squad-sync-5e36d690cf8e.herokuapp.com/",
+    githubLink: "https://github.com/erikbenedict/squad-sync",
+    image: "/squad-sync-fullsize.png",
+  },
+  {
     title: "Challenge Fitness",
     liveLink: "https://challenge-fitness-9cf387429034.herokuapp.com/login",
     githubLink: "https://github.com/anicrob/fitness-app",
@@ -28,12 +34,6 @@ const projectData = [
     liveLink: "https://jebulger.github.io/work-day-scheduler/",
     githubLink: "https://github.com/jebulger/work-day-scheduler",
     image: "/work-scheduler.png",
-  },
-  {
-    title: "Code Quiz",
-    liveLink: "https://jebulger.github.io/code-quiz/",
-    githubLink: "https://github.com/jebulger/code-quiz",
-    image: "/code-quiz.png",
   },
 ];
 
